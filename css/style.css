@@ -964,10 +964,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 6em;
     height: auto;
     padding: 3px;
+<<<<<<< HEAD
 
 	max-width: 90%;
 	margin-left: auto;
     margin-right: auto;
+=======
+    float: left;
+	max-width: 90%;
+>>>>>>> origin/master
   }
 
   .item-img img {
