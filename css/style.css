@@ -964,9 +964,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 6em;
     height: auto;
     padding: 3px;
-    border: 1px solid #ccc;
-    background-color: #fff;
     float: left;
+	max-width: 90%;
   }
 
   .item-img img {
@@ -975,6 +974,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   #itemfiles + * {
     clear: left;
+
   }
 
   .element-text {

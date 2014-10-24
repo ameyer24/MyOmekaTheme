@@ -7,6 +7,8 @@
     </div>
 <?php endif; ?>
 
+<p>This is a test</p>
+
 <div id="primary">
 
     <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
