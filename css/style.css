@@ -91,13 +91,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   h1 {
     font-size: 28px;
     line-height: 42px;
-    margin-bottom: 1.5em;
   }
 
   h2 {
     font-size: 24.5px;
     line-height: 42px;
-    margin-bottom: 0.85714em;
     font-weight: bold;
     color: #9e9e9e;
   }
@@ -105,14 +103,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   h3 {
     font-size: 17.5px;
     line-height: 21px;
-    margin-bottom: 1.2em;
-    color: #7B8D78;
+    margin-bottom: 0.7em;
+    color: #dddddd;
   }
 
   h4 {
     margin-bottom: 1.5em;
     font-weight: bold;
-    color: #7B8D78;
+    color: #dddddd;
   }
 
   p, ul, ol, dl {
@@ -166,19 +164,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   a:link {
-    color: #843418;
+    color: #606060;
   }
 
   a:visited {
-    color: #a49d4c;
+    color: #3B5998;
   }
 
   a:hover {
-    color: #7B8D78;
+    color: #888888;
   }
 
   a:active {
-    color: #7B8D78;
+    color: #888888;
   }
 
   h1 a,
@@ -204,7 +202,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   th {
     text-align: left;
-    color: #a49d4c;
+    color: #3B5998;
     font-weight: bold;
     border-bottom: 2px solid #dddddd;
   }
@@ -240,7 +238,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 21px;
-    background-color: #a49d4c;
+    background-color: #3B5998;
     color: #fff;
     border: 0;
     padding: 0.375em;
@@ -250,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   input[type=submit]:hover,
   button:hover,
   a.button:hover {
-    background-color: #706b34;
+    background-color: #3B5998;
   }
 
   select {
@@ -305,7 +303,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background: #fff;
     width: 90%;
     padding: 1.5em;
-    margin: 3em auto;
+    margin: 1em auto;
   }
 
   #content {
@@ -396,7 +394,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   .pagination_next,
   .pagination_previous {
-    background-color: #a49d4c;
+    background-color: #3B5998;
     font-size: 16px;
     padding: 0 10px;
     position: relative;
@@ -650,8 +648,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #000000;
   }
   .nav-menu a:hover, .nav-menu a:focus {
-    background-color: #000;
-    color: #dbd37b;
+    background-color: #3B5998;
+    color: #FFFFFF;
   }
 
   /* a top level navigation item in the mega menu */
@@ -701,7 +699,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding: 1.5em;
     border: 0;
     margin: 0;
-    background-color: #843418;
+    background-color: #9E9E9E;
     z-index: 2;
   }
 
@@ -775,7 +773,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-width: 0;
   }
   footer a:visited {
-    color: #843418;
+    color: #9E9E9E;
   }
 
   #footer-text {
@@ -802,8 +800,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #item-filters > ul > li,
   #search-filters > ul > li {
     padding: 0.75em 10px;
-    background-color: #e2dfc0;
-    color: #706b34;
+    background-color: #ffffff;
+    color: #3B5998;
   }
 
   #item-filters li li,
@@ -850,10 +848,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .featured,
   #featured-exhibit {
     overflow: hidden;
-    background: #7B8D78;
-    color: #fff;
+    background: #dddddd;
     padding: 1.5em 1.5em 0;
-    border-color: #4F584D;
+    border-color: #3B5998;
     border-bottom-width: 0.21429em;
     border-bottom-style: solid;
     padding-bottom: 1.28571em;
@@ -865,16 +862,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-weight: bold;
     margin: -1.5em -1.5em 1.2em;
     padding: 0.75em 1.5em;
-    background: #4F584D;
+    background: #3B5998;
     color: #fff;
   }
   .featured a,
   #featured-exhibit a {
-    color: #cac58c;
+    color: #05276E;
   }
   .featured a:hover,
   #featured-exhibit a:hover {
-    color: #dbd37b;
+    color: #05276E;
   }
 
   #home #content #primary {
@@ -938,16 +935,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     float: left;
     padding: 0.75em;
     text-align: center;
-    color: #fff;
-    background: #a49d4c;
+    color: #000000;
+    background: #ffffff;
     border-width: 0 1px 1px 0;
   }
   .items-nav a:hover,
   #secondary-nav a:hover,
   .secondary-nav a:hover,
   #exhibit-child-pages a:hover {
-    background-color: #5e5a2c;
-    color: #fff;
+    background-color: #3B5998;
+    color: #ffffff;
   }
 
   div.item {
@@ -964,15 +961,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 6em;
     height: auto;
     padding: 3px;
-<<<<<<< HEAD
-
 	max-width: 90%;
 	margin-left: auto;
     margin-right: auto;
-=======
-    float: left;
 	max-width: 90%;
->>>>>>> origin/master
+
   }
 
   .item-img img {
@@ -1182,7 +1175,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
     padding: 0.75em;
     color: #fff;
-    background: #a49d4c;
+    background: #3B5998;
     border-width: 0 1px 1px 0;
   }
   #exhibit-pages ul a:hover {
@@ -1190,7 +1183,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #fff;
   }
   #exhibit-pages .current > a {
-    background-color: #706b34;
+    background-color: #3B5998;
   }
 
   .summary #exhibit-pages {
