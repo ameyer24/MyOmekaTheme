@@ -93,18 +93,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     line-height: 42px;
   }
 
-  h2 {
-    font-size: 24.5px;
-    line-height: 42px;
-    font-weight: bold;
-    color: #9e9e9e;
-  }
+  h2, h3 {
+    font-size: 20px;
+    line-height: 38px;
 
-  h3 {
-    font-size: 17.5px;
-    line-height: 21px;
-    margin-bottom: 0.7em;
-    color: #dddddd;
+
   }
 
   h4 {
@@ -905,6 +898,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .items.show #content > #primary {
     padding-top: 1.5em;
   }
+    .items.show element-text{
+	display:inline;
+  }
 
   .items.show #secondary {
     padding-top: 0;
@@ -974,12 +970,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   #itemfiles + * {
     clear: left;
-
   }
 
   .element-text {
-
-    margin-bottom: 0.75em;
+    margin-bottom: .75em;
   }
 
   .element-text-empty {
@@ -1001,7 +995,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .item-pagination li {
     display: block;
     float: left;
-    width: 400px;
     margin-bottom: 0;
   }
   .item-pagination li.next {
@@ -1012,7 +1005,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-decoration: none;
     display: block;
     float: left;
-    width: 400px;
   }
 
   .item-file {
@@ -1088,18 +1080,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     line-height: 31.5px;
   }
 
+  
   /* @end */
   /* @group ----- Collections ----- */
+  
+    #collection-items {
+	display: inline;
+	background: #123456;
+  }
   .collections.browse h1 {
     float: left;
   }
 
   .collections .item-img {
-    float: left;
+
     margin: 0 1.5em 1.5em 0;
   }
   .collections .item-img a {
-    display: block;
+
     height: 6em;
   }
   .collections .item-img img {
@@ -1110,6 +1108,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin: 0;
     background-color: #fff;
   }
+  
+
 
   /* @end */
   /* @group ----- Simple Pages ----- */
