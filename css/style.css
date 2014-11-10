@@ -96,8 +96,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   h2, h3 {
     font-size: 20px;
     line-height: 38px;
-
-
   }
 
   h4 {
@@ -954,18 +952,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   .item img,
   .item-file img {
-    width: 6em;
-    height: auto;
     padding: 3px;
 	max-width: 90%;
 	margin-left: auto;
     margin-right: auto;
 	max-width: 90%;
-
   }
 
   .item-img img {
-    margin: 0 1.5em 1.5em 0;
+    display: block;
+	float: left;
+	width: 250px;  /* Remove this if all the thumbnails are the same size.*/
+	margin-right:15px;
   }
 
   #itemfiles + * {
