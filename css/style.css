@@ -481,15 +481,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .image {
     float: left;
     display: block;
-    height: 6em;
     margin: 0 1.5em 1.5em 0;
   }
   .image img {
-    height: 100%;
-    width: auto;
+    width: 250px; /* Remove this if all the thumbnails are the same size?*/
+	margin-right:15px;
     padding: 3px;
     border: 1px solid #ccc;
-    margin: 0;
     background-color: #fff;
   }
 
@@ -890,6 +888,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .item-description {
     margin-bottom: 1.5em;
   }
+   #featured-item .item-description {
+   clear: left;
+   }
+  
 
   /* @end */
   /* @group ----- Items ----- */
@@ -1091,11 +1093,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   .collections .item-img {
-
     margin: 0 1.5em 1.5em 0;
   }
   .collections .item-img a {
-
     height: 6em;
   }
   .collections .item-img img {
@@ -1251,6 +1251,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
     width: 100%;
   }
+  .item-description {
+   clear: left;
+   }
+  
 }
 @media print {
   body {
