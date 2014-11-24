@@ -9,13 +9,7 @@
 
 <div id="primary">
 
-    <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
-    <!-- Featured Item -->
-    <div id="featured-item" class="featured">
-        <h2><?php echo __('Featured Item'); ?></h2>
-        <?php echo random_featured_items(1); ?>
-    </div><!--end featured-item-->
-    <?php endif; ?>
+
 
     <?php
     $recentItems = get_theme_option('Homepage Recent Items');
@@ -35,6 +29,15 @@
 
 </div>
 <div id="secondary">
+    <?php if (get_theme_option('Display Featured Item') !== '0'): ?>
+    <!-- Featured Item -->
+    <div id="featured-item" class="featured">
+        <h2><?php echo __('Featured Item'); ?></h2>
+        <?php echo random_featured_items(1); ?>
+    </div><!--end featured-item-->
+    <?php endif; ?>
+
+
     <?php if (get_theme_option('Display Featured Collection') !== '0'): ?>
     <!-- Featured Collection -->
     <div id="featured-collection" class="featured">

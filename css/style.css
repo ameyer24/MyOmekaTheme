@@ -627,7 +627,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     z-index: 15;
     float: left;
 	border-top: 1px solid #ddd;
-
   }
   .nav-menu a {
     text-decoration: none;
@@ -646,12 +645,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     list-style: none;
     display: block;
     float: left;
-	width:23%;
+	width:25%;
 	text-align: center;
     padding: 0;
-    margin: 1%;
     position: relative;
-
   }
 
   /* first descendant link within a top level navigation item */
